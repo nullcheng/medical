@@ -4,8 +4,8 @@ import Login from '@/components/Login.vue'
 const Home = () => import('@/components/Home')
 const Welcome = () => import('@/components/Welcome')
 const Users = () => import('@/components/user/Users')
-const Roles = () => import('@/components/roles/Roles')
-const Rights = () => import('@/components/rights/Rights')
+const Roles = () => import('@/components/power/Roles')
+const Rights = () => import('@/components/power/Rights')
 
 Vue.use(VueRouter)
 
